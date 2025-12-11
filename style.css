@@ -1,0 +1,31 @@
+#form {
+    background-color: rgb(240, 168, 14);
+    border-color: rgb(240, 168, 14);
+    margin: 50px;
+    padding: 5px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    background-color:rgb(240, 168, 14);
+    margin: 60px;
+    padding: 5px;
+
+}
+
+form {   
+    margin: 5px;
+    padding: 5px;
+    display: block;
+}
+
+
+input[type=text] {
+    margin: auto;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-width: 500px;
+    text-align: center;
+}
