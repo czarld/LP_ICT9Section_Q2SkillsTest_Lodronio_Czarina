@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> ST </title>
 
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 
 </head>
-<body style="background-color: rgb(2, 110, 193);">
+<body style="background-color: rgb(255, 144, 47);">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
@@ -58,99 +59,99 @@
 
 
 <div class=" container text-center" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">
-<h1><strong> Contact Page </strong></h1>
+<h1><strong> Enrollment Page </strong></h1>
 <div class="table-responsive">
-
-<div>
-
-    <div class="p-3 border rounded bg-white h-100">
-        <h3 style="color: rgb(0, 0, 0);"> School Office Hours </h3>
-    </div>
-
-</div>
-
-
-    <table class="table table-bordered table-hover text-center">
-        <thead class="table-dark">
-            <tr>
-                <th> Day </th>
-                <th> Office Hours </th>
-                <th> Department </th>
-            </tr>
-        </thead>
-
-        <tbody>
-            <tr>
-                <td> Monday </td>
-                <td> 8:00AM - 4:00PM </td>
-                <td> Registrar's Office </td>
-            </tr>
-
-            
-            <tr>
-                <td> Tuesday </td>
-                <td> 8:00AM - 4:00PM </td>
-                <td> Accounting Office </td>
-
-            </tr>
-
-            <tr>
-                <td> Wednesday </td>
-                <td> 8:00AM - 4:00PM </td>
-                <td> Guidance Office </td>
-            </tr>
-        
-            <tr>
-                <td> Thursday </td>
-                <td> 8:00AM - 4:00PM </td>
-                <td> Principal's Office </td>
-
-            </tr>
-
-            <tr>
-                <td> Friday </td>
-                <td> 8:00AM - 4:00PM </td>
-                <td> Admin Office </td>
-
-            </tr>
-
-
-        </tbody>
-    </table>
-</div>
-
-
-
 
 
 <div class="p-3 border rounded bg-white h-100">
 	
-<form>
-	<h3> Contact Us </h3>
-<br>
-    <label for="fname"> First Name : </label>
-    <input type="text" id="fname" placeholder="Enter your full name">
+<div class="box" id="theform">
+    <div class="row">
+   
+    
 
-<br> 
-<br>
-    <label for="email"> Email Address : </label>
-    <input type="email" id="email" placeholder="Enter your email">
-
-<br>
-<br>
-    <label for="subject"> Subject : </label>
-    <input type="subject" id="subject" placeholder="Enter subject">
-<br>
-<br>
-     <label for="message"> Message </label>
-<br>
-     <textarea id="message" name="message" rows=10 cols="40" placeholder="type here"> </textarea>
-<br>
-<br>
-    <input type="submit" id="submit" value="submit">
-    <input type="reset" id="reset" value="delete">
-
-<br>
+            <label style="color: rgb(238, 94, 17); font-weight: bold; font-size: larger; background-color: lightgray;">Student Information</label>
+            <br>
+            <label><strong>Student Name:</strong></label>
+            <br>
+            <input type="text" id="fname" placeholder="First Name"><br><input type="text" id="fname" placeholder="Last Name">
+            <br>
+            <br>
+            <label><strong>Date of Birth:</strong></label>
+            <input type="text" id="fname" placeholder="DD/MM/YY">
+            <br>
+            <br>
+            <label><strong>Contact Number:</strong></label>
+            <br>
+            <input type="text" id="fname" placeholder="0000 000 0000">
+            <br>
+            <label><strong>Student Address:</strong></label>    
+            <br>
+            <input type="text" placeholder="Full Address">
+            <br>
+            <br>
+            <br>
+            <p></p>
+            <label style="color: rgb(238, 94, 17); font-weight: bold; font-size: larger; background-color: lightgray">Parent/Guardian Information</label>
+            <br>
+            <label><strong>Parent/Guardian Name:</strong></label>
+            <br>
+            <input type="text" id="fname" placeholder="First Name"><br><input type="text" id="fname" placeholder="Last Name">
+            <br>
+            <label><strong>Relationship to Student:</strong></label>
+            <br>
+            <div class="radio">
+            <input type="radio" id="1" name="parent" value="parent">
+            <label for="parent">Parent</label>
+            <br>
+            <input type="radio" id="2" name="grandparent" value="grandparent">
+            <label for="grandparent">Grandparent</label>
+            <br>
+            <input type="radio" id="3" name="sibling" value="sibling">
+            <label for="grandparent">Sibling</label>
+            <br>
+            <input type="radio" id="4" name="guardian" value="guardian">
+            <label for="parent">Guardian</label>
+            </div>
+            <br>
+            <label><strong>Contact Number:</strong></label>
+            <br>
+            <input type="text" id="fname" placeholder="0000 000 0000">
+            <br>
+            <p></p>
+            <label style="color: rgb(238, 94, 17); font-weight: bold; font-size: larger; background-color: lightgray">Enrollment Information</label>
+            <label>Applying For:</label>
+            <br>
+            <div class="radio">
+            <input type="radio" id="1" name="1" value="1">
+            <label for="1">CASA</label>
+            <br>
+            <input type="radio" id="2" name="2" value="2">
+            <label for="2">Primary</label>
+            <br>
+            <input type="radio" id="3" name="3" value="3">
+            <label for="3">Intermediate</label>
+            <br>
+            <input type="radio" id="4" name="4" value="4">
+            <label for="4">High School</label>
+            <br>
+            <input type="radio" id="5" name="5" value="5">
+            <label for="4">Senior High School</label>
+            <br>
+            </div>
+            <br>
+            <p></p>
+            <label style="color: rgb(238, 94, 17); font-weight: bold; font-size: larger; background-color: lightgray"><strong>Previous school (if this applies):</strong></label>
+            <br>
+            <p style="font-size: small;"> NOTE : Put N/A if none.</p>
+            <input type="text" id="fname" placeholder="Name of School">
+            <br>
+            <p></p>
+            <input type="submit" value="Submit">
+        </div>
+    </div>
+</div>
+</form>
 
 </div>
 
